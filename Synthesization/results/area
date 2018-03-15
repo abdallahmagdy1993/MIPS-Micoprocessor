@@ -1,0 +1,33 @@
+Information: Updating graph... (UID-83)
+Warning: Design 'CPU' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : area
+Design : CPU
+Version: E-2010.12-SP5-3
+Date   : Wed May 13 01:23:38 2015
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'CPU' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    saed90nm_typ_ht_pg (File: /home/abdallah/Desktop/mipsprocessor/ref/models2/saed90nm_typ_ht_pg.db)
+    saed90nm_typ_ht (File: /home/abdallah/Desktop/mipsprocessor/ref/models/saed90nm_typ_ht.db)
+
+Number of ports:                           19
+Number of nets:                           432
+Number of cells:                           65
+Number of combinational cells:             53
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                         13
+Number of references:                      20
+
+Combinational area:       57349.439213
+Noncombinational area:    65997.510680
+Net Interconnect area:    3182.018334  
+
+Total cell area:          123346.949893
+Total area:               126528.968227
+1

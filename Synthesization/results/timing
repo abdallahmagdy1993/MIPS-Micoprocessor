@@ -1,0 +1,118 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : CPU
+Version: E-2010.12-SP5-3
+Date   : Wed May 13 01:23:38 2015
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht_pg
+Wire Load Model Mode: top
+
+  Startpoint: EX_MEM_reg/fx_19/q_reg
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: ID_EX_reg/fx_13/q_reg
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  EX_MEM_reg/fx_19/q_reg/CLK (DFFARX1)                    0.00 #     0.00 r
+  EX_MEM_reg/fx_19/q_reg/QN (DFFARX1)                     0.26       0.26 r
+  EX_MEM_reg/fx_19/U5/QN (INVX0)                          0.09       0.35 f
+  EX_MEM_reg/fx_19/q (my_DFF_1_77)                        0.00       0.35 f
+  EX_MEM_reg/q[19] (my_nDFF_n32_2)                        0.00       0.35 f
+  memory_access_unit/mem_in[19] (memory_access_1)         0.00       0.35 f
+  memory_access_unit/U61/QN (INVX0)                       0.08       0.43 r
+  memory_access_unit/U64/QN (NAND2X0)                     0.08       0.51 f
+  memory_access_unit/U58/QN (AOI21X1)                     0.23       0.74 r
+  memory_access_unit/U54/Q (AO21X1)                       0.19       0.92 r
+  memory_access_unit/MEM_RD[1] (memory_access_1)          0.00       0.92 r
+  Eexecute_unit/mem_rd[1] (execute_1)                     0.00       0.92 r
+  Eexecute_unit/U148/Q (XNOR2X1)                          0.25       1.17 f
+  Eexecute_unit/U37/QN (NAND2X0)                          0.10       1.27 r
+  Eexecute_unit/U159/Q (AND4X2)                           0.22       1.49 r
+  Eexecute_unit/U14/Q (OR2X1)                             0.14       1.63 r
+  Eexecute_unit/U13/QN (NOR2X0)                           0.11       1.74 f
+  Eexecute_unit/U114/Q (AO221X1)                          0.28       2.01 f
+  Eexecute_unit/U111/Q (AO22X1)                           0.21       2.22 f
+  Eexecute_unit/alu0/b[0] (ALSU)                          0.00       2.22 f
+  Eexecute_unit/alu0/u3/a[0] (partD_1)                    0.00       2.22 f
+  Eexecute_unit/alu0/u3/U2/Q (XOR2X1)                     0.24       2.46 r
+  Eexecute_unit/alu0/u3/u0/a[0] (my_nadder_n8_1)          0.00       2.46 r
+  Eexecute_unit/alu0/u3/u0/f0/a (my_adder_1_8)            0.00       2.46 r
+  Eexecute_unit/alu0/u3/u0/f0/U3/Q (XOR2X1)               0.21       2.67 f
+  Eexecute_unit/alu0/u3/u0/f0/U2/Q (AO22X1)               0.19       2.86 f
+  Eexecute_unit/alu0/u3/u0/f0/cout (my_adder_1_8)         0.00       2.86 f
+  Eexecute_unit/alu0/u3/u0/fx_1/cin (my_adder_1_7)        0.00       2.86 f
+  Eexecute_unit/alu0/u3/u0/fx_1/U2/Q (AO22X1)             0.19       3.05 f
+  Eexecute_unit/alu0/u3/u0/fx_1/cout (my_adder_1_7)       0.00       3.05 f
+  Eexecute_unit/alu0/u3/u0/fx_2/cin (my_adder_1_6)        0.00       3.05 f
+  Eexecute_unit/alu0/u3/u0/fx_2/U2/Q (AO22X1)             0.19       3.25 f
+  Eexecute_unit/alu0/u3/u0/fx_2/cout (my_adder_1_6)       0.00       3.25 f
+  Eexecute_unit/alu0/u3/u0/fx_3/cin (my_adder_1_5)        0.00       3.25 f
+  Eexecute_unit/alu0/u3/u0/fx_3/U2/Q (AO22X1)             0.19       3.44 f
+  Eexecute_unit/alu0/u3/u0/fx_3/cout (my_adder_1_5)       0.00       3.44 f
+  Eexecute_unit/alu0/u3/u0/fx_4/cin (my_adder_1_4)        0.00       3.44 f
+  Eexecute_unit/alu0/u3/u0/fx_4/U2/Q (AO22X1)             0.19       3.63 f
+  Eexecute_unit/alu0/u3/u0/fx_4/cout (my_adder_1_4)       0.00       3.63 f
+  Eexecute_unit/alu0/u3/u0/fx_5/cin (my_adder_1_3)        0.00       3.63 f
+  Eexecute_unit/alu0/u3/u0/fx_5/U2/Q (AO22X1)             0.19       3.83 f
+  Eexecute_unit/alu0/u3/u0/fx_5/cout (my_adder_1_3)       0.00       3.83 f
+  Eexecute_unit/alu0/u3/u0/fx_6/cin (my_adder_1_2)        0.00       3.83 f
+  Eexecute_unit/alu0/u3/u0/fx_6/U2/Q (AO22X1)             0.19       4.02 f
+  Eexecute_unit/alu0/u3/u0/fx_6/cout (my_adder_1_2)       0.00       4.02 f
+  Eexecute_unit/alu0/u3/u0/fx_7/cin (my_adder_1_1)        0.00       4.02 f
+  Eexecute_unit/alu0/u3/u0/fx_7/U1/Q (XOR2X1)             0.25       4.27 r
+  Eexecute_unit/alu0/u3/u0/fx_7/s (my_adder_1_1)          0.00       4.27 r
+  Eexecute_unit/alu0/u3/u0/s[7] (my_nadder_n8_1)          0.00       4.27 r
+  Eexecute_unit/alu0/u3/U12/Q (OR4X1)                     0.16       4.43 r
+  Eexecute_unit/alu0/u3/U23/QN (NOR2X0)                   0.08       4.51 f
+  Eexecute_unit/alu0/u3/zero (partD_1)                    0.00       4.51 f
+  Eexecute_unit/alu0/U4/Q (AO22X1)                        0.20       4.71 f
+  Eexecute_unit/alu0/U3/Q (AO221X1)                       0.20       4.92 f
+  Eexecute_unit/alu0/zero_tri/Z (TNBUFFX2)                0.17       5.08 f
+  Eexecute_unit/alu0/zero (ALSU)                          0.00       5.08 f
+  Eexecute_unit/U102/Q (OA22X1)                           0.19       5.28 f
+  Eexecute_unit/U160/QN (NOR2X0)                          0.09       5.37 r
+  Eexecute_unit/U99/Q (AO222X1)                           0.20       5.57 r
+  Eexecute_unit/branch (execute_1)                        0.00       5.57 r
+  CU_comp/branch (CU)                                     0.00       5.57 r
+  CU_comp/U4/Q (AND2X1)                                   0.15       5.72 r
+  CU_comp/U7/QN (NOR2X0)                                  0.09       5.81 f
+  CU_comp/U30/Q (AND2X1)                                  0.17       5.98 f
+  CU_comp/U153/Q (AO221X1)                                0.28       6.26 f
+  CU_comp/PCin[3] (CU)                                    0.00       6.26 f
+  U50/Q (AO22X1)                                          0.19       6.45 f
+  U49/Q (AO221X1)                                         0.20       6.65 f
+  ID_EX_reg/d[13] (my_nDFF_n64)                           0.00       6.65 f
+  ID_EX_reg/fx_13/d (my_DFF_1_151)                        0.00       6.65 f
+  ID_EX_reg/fx_13/U3/Q (AO22X1)                           0.18       6.82 f
+  ID_EX_reg/fx_13/q_reg/D (DFFARX1)                       0.02       6.85 f
+  data arrival time                                                  6.85
+
+  clock clock (rise edge)                                 7.00       7.00
+  clock network delay (ideal)                             0.00       7.00
+  ID_EX_reg/fx_13/q_reg/CLK (DFFARX1)                     0.00       7.00 r
+  library setup time                                     -0.15       6.85
+  data required time                                                 6.85
+  --------------------------------------------------------------------------
+  data required time                                                 6.85
+  data arrival time                                                 -6.85
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

@@ -1,0 +1,927 @@
+Loading db file '/home/abdallah/Desktop/mipsprocessor/ref/models2/saed90nm_typ_ht_pg.db'
+Loading db file '/home/abdallah/Desktop/mipsprocessor/ref/models/saed90nm_typ_ht.db'
+Loading db file '/home/abdallah/instal_syn/libraries/syn/gtech.db'
+Loading db file '/home/abdallah/instal_syn/libraries/syn/standard.sldb'
+Warning: The library named saed90nm_typ_ht_pg specifies a very small trip-point value (0). (TIM-163)
+Warning: The library named saed90nm_typ_ht_pg specifies a very small trip-point value (0). (TIM-163)
+  Loading link library 'saed90nm_typ_ht_pg'
+  Loading link library 'saed90nm_typ_ht'
+  Loading link library 'gtech'
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/my_DFF.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration MY_DFF
+Compiling Architecture A_MY_DFF of MY_DFF
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/my_DFF.vhd:8: The architecture a_my_DFF has already been analyzed. It is being replaced. (VHD-4)
+
+Inferred memory devices in process
+	in routine my_DFF line 10 in file
+		'/home/abdallah/Desktop/mipsprocessor/source/my_DFF.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/my_DFF.db:my_DFF'
+Loaded 1 design.
+Current design is 'my_DFF'.
+Running PRESTO HDLC
+Compiling Entity Declaration MY_DFF
+Compiling Architecture A_MY_DFF of MY_DFF
+Warning:  ../source/my_DFF.vhd:8: The architecture a_my_DFF has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/my_nDFF.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration MY_NDFF
+Compiling Architecture A_MY_NDFF of MY_NDFF
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/my_nDFF.vhd:11: The architecture a_my_nDFF has already been analyzed. It is being replaced. (VHD-4)
+Compiling Architecture B_MY_NDFF of MY_NDFF
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/my_nDFF.vhd:23: The architecture b_my_nDFF has already been analyzed. It is being replaced. (VHD-4)
+Warning:  The entity 'my_nDFF' has multiple architectures defined. The last defined architecture 'b_my_nDFF' will be used to build the design by default. (VHD-6)
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/my_nDFF.vhd:30: The name of the register or instance 'fx' will be changed to its hierarchial form name, e.g. from 'fx_0' to 'loop1(0)/fx', in next release. Similar changes may only warn once. (ELAB-810)
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/my_nDFF.db:my_nDFF'
+Loaded 1 design.
+Current design is 'my_nDFF'.
+Running PRESTO HDLC
+Compiling Entity Declaration MY_NDFF
+Compiling Architecture A_MY_NDFF of MY_NDFF
+Warning:  ../source/my_nDFF.vhd:11: The architecture a_my_nDFF has already been analyzed. It is being replaced. (VHD-4)
+Compiling Architecture B_MY_NDFF of MY_NDFF
+Warning:  ../source/my_nDFF.vhd:23: The architecture b_my_nDFF has already been analyzed. It is being replaced. (VHD-4)
+Warning:  The entity 'my_nDFF' has multiple architectures defined. The last defined architecture 'b_my_nDFF' will be used to build the design by default. (VHD-6)
+Presto compilation completed successfully.
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/my_adder.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration MY_ADDER
+Compiling Architecture A_MY_ADDER of MY_ADDER
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/my_adder.vhd:12: The architecture a_my_adder has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/my_adder.db:my_adder'
+Loaded 1 design.
+Current design is 'my_adder'.
+Running PRESTO HDLC
+Compiling Entity Declaration MY_ADDER
+Compiling Architecture A_MY_ADDER of MY_ADDER
+Warning:  ../source/my_adder.vhd:12: The architecture a_my_adder has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/my_nadder.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration MY_NADDER
+Compiling Architecture A_MY_NADDER of MY_NADDER
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/my_nadder.vhd:13: The architecture a_my_nadder has already been analyzed. It is being replaced. (VHD-4)
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/my_nadder.vhd:23: The name of the register or instance 'fx' will be changed to its hierarchial form name, e.g. from 'fx_1' to 'loop1(1)/fx', in next release. Similar changes may only warn once. (ELAB-810)
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/my_nadder.db:my_nadder'
+Loaded 1 design.
+Current design is 'my_nadder'.
+Running PRESTO HDLC
+Compiling Entity Declaration MY_NADDER
+Compiling Architecture A_MY_NADDER of MY_NADDER
+Warning:  ../source/my_nadder.vhd:13: The architecture a_my_nadder has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/partA.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration PARTA
+Compiling Architecture ARCH4 of PARTA
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/partA.vhd:18: The architecture arch4 has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/partA.db:partA'
+Loaded 1 design.
+Current design is 'partA'.
+Running PRESTO HDLC
+Compiling Entity Declaration PARTA
+Compiling Architecture ARCH4 of PARTA
+Warning:  ../source/partA.vhd:18: The architecture arch4 has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/partB.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration PARTB
+Compiling Architecture ARCH1 of PARTB
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/partB.vhd:17: The architecture arch1 has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/partB.db:partB'
+Loaded 1 design.
+Current design is 'partB'.
+Running PRESTO HDLC
+Compiling Entity Declaration PARTB
+Compiling Architecture ARCH1 of PARTB
+Warning:  ../source/partB.vhd:17: The architecture arch1 has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/partC.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration PARTC
+Compiling Architecture ARCH2 of PARTC
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/partC.vhd:18: The architecture arch2 has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/partC.db:partC'
+Loaded 1 design.
+Current design is 'partC'.
+Running PRESTO HDLC
+Compiling Entity Declaration PARTC
+Compiling Architecture ARCH2 of PARTC
+Warning:  ../source/partC.vhd:18: The architecture arch2 has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/partD.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration PARTD
+Compiling Architecture ARCH3 of PARTD
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/partD.vhd:18: The architecture arch3 has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/partD.db:partD'
+Loaded 1 design.
+Current design is 'partD'.
+Running PRESTO HDLC
+Compiling Entity Declaration PARTD
+Compiling Architecture ARCH3 of PARTD
+Warning:  ../source/partD.vhd:18: The architecture arch3 has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/ALSU.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration ALSU
+Compiling Architecture ARCH of ALSU
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/ALSU.vhd:35: The architecture arch has already been analyzed. It is being replaced. (VHD-4)
+
+Inferred memory devices in process
+	in routine ALSU line 93 in file
+		'/home/abdallah/Desktop/mipsprocessor/source/ALSU.vhd'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|        F_reg        | Latch |   8   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Inferred tri-state devices in process
+	in routine ALSU line 100 in file
+		'/home/abdallah/Desktop/mipsprocessor/source/ALSU.vhd'.
+=================================================
+| Register Name |       Type       | Width | MB |
+=================================================
+|   cout_tri    | Tri-State Buffer |   1   | N  |
+=================================================
+
+Inferred tri-state devices in process
+	in routine ALSU line 108 in file
+		'/home/abdallah/Desktop/mipsprocessor/source/ALSU.vhd'.
+=================================================
+| Register Name |       Type       | Width | MB |
+=================================================
+|   zero_tri    | Tri-State Buffer |   1   | N  |
+=================================================
+
+Inferred tri-state devices in process
+	in routine ALSU line 114 in file
+		'/home/abdallah/Desktop/mipsprocessor/source/ALSU.vhd'.
+=================================================
+| Register Name |       Type       | Width | MB |
+=================================================
+| negative_tri  | Tri-State Buffer |   1   | N  |
+=================================================
+
+Inferred tri-state devices in process
+	in routine ALSU line 120 in file
+		'/home/abdallah/Desktop/mipsprocessor/source/ALSU.vhd'.
+=================================================
+| Register Name |       Type       | Width | MB |
+=================================================
+| overflow_tri  | Tri-State Buffer |   1   | N  |
+=================================================
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/ALSU.db:ALSU'
+Loaded 1 design.
+Current design is 'ALSU'.
+Running PRESTO HDLC
+Compiling Entity Declaration ALSU
+Compiling Architecture ARCH of ALSU
+Warning:  ../source/ALSU.vhd:35: The architecture arch has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/data_ram.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration DATA_RAM
+Compiling Architecture DATA_RAM_ARCH of DATA_RAM
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/data_ram.vhd:15: The architecture data_ram_arch has already been analyzed. It is being replaced. (VHD-4)
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/data_ram.vhd:20: The initial value for signal 'ram' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+
+Inferred memory devices in process
+	in routine data_ram line 22 in file
+		'/home/abdallah/Desktop/mipsprocessor/source/data_ram.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       ram_reg       | Flip-flop | 2048  |  Y  | N  | N  | N  | N  | N  | N  |
+|     dataout_reg     | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|       MFC_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/data_ram.db:data_ram'
+Loaded 1 design.
+Current design is 'data_ram'.
+Running PRESTO HDLC
+Compiling Entity Declaration DATA_RAM
+Compiling Architecture DATA_RAM_ARCH of DATA_RAM
+Warning:  ../source/data_ram.vhd:15: The architecture data_ram_arch has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/inst_ram.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration INST_RAM
+Compiling Architecture INST_RAM_ARCH of INST_RAM
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/inst_ram.vhd:14: The architecture inst_ram_arch has already been analyzed. It is being replaced. (VHD-4)
+
+Inferred memory devices in process
+	in routine inst_ram line 20 in file
+		'/home/abdallah/Desktop/mipsprocessor/source/inst_ram.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       MFC_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     dataout_reg     | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/inst_ram.db:inst_ram'
+Loaded 1 design.
+Current design is 'inst_ram'.
+Running PRESTO HDLC
+Compiling Entity Declaration INST_RAM
+Compiling Architecture INST_RAM_ARCH of INST_RAM
+Warning:  ../source/inst_ram.vhd:14: The architecture inst_ram_arch has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/memory_access.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration MEMORY_ACCESS
+Compiling Architecture MEMORY_ACCESS_ARCH of MEMORY_ACCESS
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/memory_access.vhd:19: The architecture memory_access_arch has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/memory_access.db:memory_access'
+Loaded 1 design.
+Current design is 'memory_access'.
+Running PRESTO HDLC
+Compiling Entity Declaration MEMORY_ACCESS
+Compiling Architecture MEMORY_ACCESS_ARCH of MEMORY_ACCESS
+Warning:  ../source/memory_access.vhd:19: The architecture memory_access_arch has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/write_back.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration WRITE_BACK
+Compiling Architecture WRITE_BACK_ARCH of WRITE_BACK
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/write_back.vhd:19: The architecture write_back_arch has already been analyzed. It is being replaced. (VHD-4)
+
+Inferred memory devices in process
+	in routine write_back line 55 in file
+		'/home/abdallah/Desktop/mipsprocessor/source/write_back.vhd'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|    temp_port_reg    | Latch |   8   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/write_back.db:write_back'
+Loaded 1 design.
+Current design is 'write_back'.
+Running PRESTO HDLC
+Compiling Entity Declaration WRITE_BACK
+Compiling Architecture WRITE_BACK_ARCH of WRITE_BACK
+Warning:  ../source/write_back.vhd:19: The architecture write_back_arch has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/reg_file.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration REG_FILE
+Compiling Architecture REG_FILE_ARCH of REG_FILE
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/reg_file.vhd:14: The architecture reg_file_arch has already been analyzed. It is being replaced. (VHD-4)
+
+Inferred memory devices in process
+	in routine reg_file line 49 in file
+		'/home/abdallah/Desktop/mipsprocessor/source/reg_file.vhd'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|      R3_in_reg      | Latch |   8   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/reg_file.db:reg_file'
+Loaded 1 design.
+Current design is 'reg_file'.
+Running PRESTO HDLC
+Compiling Entity Declaration REG_FILE
+Compiling Architecture REG_FILE_ARCH of REG_FILE
+Warning:  ../source/reg_file.vhd:14: The architecture reg_file_arch has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/execute.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration EXECUTE
+Compiling Architecture STRUCT of EXECUTE
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/execute.vhd:38: The architecture struct has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/execute.db:execute'
+Loaded 1 design.
+Current design is 'execute'.
+Running PRESTO HDLC
+Compiling Entity Declaration EXECUTE
+Compiling Architecture STRUCT of EXECUTE
+Warning:  ../source/execute.vhd:38: The architecture struct has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/CU.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration CU
+Compiling Architecture ARCH of CU
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/CU.vhd:32: The architecture arch has already been analyzed. It is being replaced. (VHD-4)
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/CU.vhd:47: 'INT' is being read, but does not appear in the sensitivity list of the block. (ELAB-292)
+
+Inferred memory devices in process
+	in routine CU line 45 in file
+		'/home/abdallah/Desktop/mipsprocessor/source/CU.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       INT_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/CU.db:CU'
+Loaded 1 design.
+Current design is 'CU'.
+Running PRESTO HDLC
+Compiling Entity Declaration CU
+Compiling Architecture ARCH of CU
+Warning:  ../source/CU.vhd:32: The architecture arch has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Loading vhdl file '/home/abdallah/Desktop/mipsprocessor/source/CPU.vhd'
+Running PRESTO HDLC
+Compiling Entity Declaration CPU
+Compiling Architecture ARCH of CPU
+Warning:  /home/abdallah/Desktop/mipsprocessor/source/CPU.vhd:15: The architecture arch has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Current design is now '/home/abdallah/Desktop/mipsprocessor/source/CPU.db:CPU'
+Loaded 1 design.
+Current design is 'CPU'.
+Running PRESTO HDLC
+Compiling Entity Declaration CPU
+Compiling Architecture ARCH of CPU
+Warning:  ../source/CPU.vhd:15: The architecture arch has already been analyzed. It is being replaced. (VHD-4)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'CPU'.
+Information: Building the design 'my_nDFF' instantiated from design 'CPU' with
+	the parameters "n=8". (HDL-193)
+Warning:  ../source/my_nDFF.vhd:30: The name of the register or instance 'fx' will be changed to its hierarchial form name, e.g. from 'fx_0' to 'loop1(0)/fx', in next release. Similar changes may only warn once. (ELAB-810)
+Presto compilation completed successfully.
+Information: Building the design 'my_nDFF' instantiated from design 'CPU' with
+	the parameters "n=32". (HDL-193)
+Warning:  ../source/my_nDFF.vhd:30: The name of the register or instance 'fx' will be changed to its hierarchial form name, e.g. from 'fx_0' to 'loop1(0)/fx', in next release. Similar changes may only warn once. (ELAB-810)
+Presto compilation completed successfully.
+Information: Building the design 'my_nDFF' instantiated from design 'CPU' with
+	the parameters "n=64". (HDL-193)
+Warning:  ../source/my_nDFF.vhd:30: The name of the register or instance 'fx' will be changed to its hierarchial form name, e.g. from 'fx_0' to 'loop1(0)/fx', in next release. Similar changes may only warn once. (ELAB-810)
+Presto compilation completed successfully.
+Information: Building the design 'my_nDFF' instantiated from design 'CPU' with
+	the parameters "n=4". (HDL-193)
+Warning:  ../source/my_nDFF.vhd:30: The name of the register or instance 'fx' will be changed to its hierarchial form name, e.g. from 'fx_0' to 'loop1(0)/fx', in next release. Similar changes may only warn once. (ELAB-810)
+Presto compilation completed successfully.
+Information: Building the design 'my_nadder' instantiated from design 'partA' with
+	the parameters "n=8". (HDL-193)
+Warning:  ../source/my_nadder.vhd:23: The name of the register or instance 'fx' will be changed to its hierarchial form name, e.g. from 'fx_1' to 'loop1(1)/fx', in next release. Similar changes may only warn once. (ELAB-810)
+Presto compilation completed successfully.
+
+  Linking design 'CPU'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  saed90nm_typ_ht_pg (library) /home/abdallah/Desktop/mipsprocessor/ref/models2/saed90nm_typ_ht_pg.db
+  saed90nm_typ_ht (library)   /home/abdallah/Desktop/mipsprocessor/ref/models/saed90nm_typ_ht.db
+
+Information: Building the design 'inst_ram'. (HDL-193)
+
+Inferred memory devices in process
+	in routine inst_ram line 20 in file
+		'../source/inst_ram.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       MFC_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     dataout_reg     | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Warning: Design 'inst_ram' was renamed to 'inst_ram_1' to avoid
+	a conflict with another design that has the same name but
+different parameters. (LINK-17)
+Information: Building the design 'reg_file'. (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_file line 49 in file
+		'../source/reg_file.vhd'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|      R3_in_reg      | Latch |   8   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Presto compilation completed successfully.
+Warning: Design 'reg_file' was renamed to 'reg_file_1' to avoid
+	a conflict with another design that has the same name but
+different parameters. (LINK-17)
+Information: Building the design 'execute'. (HDL-193)
+Presto compilation completed successfully.
+Warning: Design 'execute' was renamed to 'execute_1' to avoid
+	a conflict with another design that has the same name but
+different parameters. (LINK-17)
+Information: Building the design 'memory_access'. (HDL-193)
+Presto compilation completed successfully.
+Warning: Design 'memory_access' was renamed to 'memory_access_1' to avoid
+	a conflict with another design that has the same name but
+different parameters. (LINK-17)
+Information: Building the design 'write_back'. (HDL-193)
+
+Inferred memory devices in process
+	in routine write_back line 55 in file
+		'../source/write_back.vhd'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|    temp_port_reg    | Latch |   8   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Presto compilation completed successfully.
+Warning: Design 'write_back' was renamed to 'write_back_1' to avoid
+	a conflict with another design that has the same name but
+different parameters. (LINK-17)
+Information: Building the design 'my_DFF'. (HDL-193)
+
+Inferred memory devices in process
+	in routine my_DFF line 10 in file
+		'../source/my_DFF.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Warning: Design 'my_DFF' was renamed to 'my_DFF_1' to avoid
+	a conflict with another design that has the same name but
+different parameters. (LINK-17)
+Information: Building the design 'data_ram'. (HDL-193)
+Warning:  ../source/data_ram.vhd:20: The initial value for signal 'ram' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+
+Inferred memory devices in process
+	in routine data_ram line 22 in file
+		'../source/data_ram.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       ram_reg       | Flip-flop | 2048  |  Y  | N  | N  | N  | N  | N  | N  |
+|     dataout_reg     | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|       MFC_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Warning: Design 'data_ram' was renamed to 'data_ram_1' to avoid
+	a conflict with another design that has the same name but
+different parameters. (LINK-17)
+Information: Building the design 'partA'. (HDL-193)
+Presto compilation completed successfully.
+Warning: Design 'partA' was renamed to 'partA_1' to avoid
+	a conflict with another design that has the same name but
+different parameters. (LINK-17)
+Information: Building the design 'partB'. (HDL-193)
+Presto compilation completed successfully.
+Warning: Design 'partB' was renamed to 'partB_1' to avoid
+	a conflict with another design that has the same name but
+different parameters. (LINK-17)
+Information: Building the design 'partC'. (HDL-193)
+Presto compilation completed successfully.
+Warning: Design 'partC' was renamed to 'partC_1' to avoid
+	a conflict with another design that has the same name but
+different parameters. (LINK-17)
+Information: Building the design 'partD'. (HDL-193)
+Presto compilation completed successfully.
+Warning: Design 'partD' was renamed to 'partD_1' to avoid
+	a conflict with another design that has the same name but
+different parameters. (LINK-17)
+Information: Building the design 'my_adder'. (HDL-193)
+Presto compilation completed successfully.
+Warning: Design 'my_adder' was renamed to 'my_adder_1' to avoid
+	a conflict with another design that has the same name but
+different parameters. (LINK-17)
+ 
+****************************************
+check_design summary:
+Version:     E-2010.12-SP5-3
+Date:        Wed May 13 01:22:12 2015
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                    108
+    Unconnected ports (LINT-28)                                    37
+    Feedthrough (LINT-29)                                          19
+    Shorted outputs (LINT-31)                                      28
+    Constant outputs (LINT-52)                                     24
+
+Cells                                                              31
+    Cells do not drive (LINT-1)                                     8
+    Connected to power or ground (LINT-32)                         18
+    Net is fed into multiple inputs (LINT-33)                       5
+
+Tristate                                                            4
+    Single tristate driver drives an input pin (LINT-63)            4
+--------------------------------------------------------------------------------
+
+Warning: In design 'CPU', cell 'PC_reg' does not drive any nets. (LINT-1)
+Warning: In design 'CPU', cell 'B_13' does not drive any nets. (LINT-1)
+Warning: In design 'CU', cell 'B_41' does not drive any nets. (LINT-1)
+Warning: In design 'CU', cell 'C1731' does not drive any nets. (LINT-1)
+Warning: In design 'execute_1', cell 'B_24' does not drive any nets. (LINT-1)
+Warning: In design 'execute_1', cell 'B_25' does not drive any nets. (LINT-1)
+Warning: In design 'execute_1', cell 'B_26' does not drive any nets. (LINT-1)
+Warning: In design 'memory_access_1', cell 'C270' does not drive any nets. (LINT-1)
+Warning: In design 'CU', port 'IF_ID[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'CU', port 'IF_ID[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'CU', port 'IF_ID[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'CU', port 'IF_ID[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'CU', port 'IF_ID[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'CU', port 'IF_ID[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'inst_ram_1', port 'address[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'inst_ram_1', port 'address[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'inst_ram_1', port 'address[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'inst_ram_1', port 'address[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'inst_ram_1', port 'address[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'inst_ram_1', port 'address[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'inst_ram_1', port 'address[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'inst_ram_1', port 'address[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'execute_1', port 'ID_EX[63]' is not connected to any nets. (LINT-28)
+Warning: In design 'execute_1', port 'ID_EX[62]' is not connected to any nets. (LINT-28)
+Warning: In design 'execute_1', port 'ID_EX[61]' is not connected to any nets. (LINT-28)
+Warning: In design 'execute_1', port 'ID_EX[60]' is not connected to any nets. (LINT-28)
+Warning: In design 'execute_1', port 'ID_EX[59]' is not connected to any nets. (LINT-28)
+Warning: In design 'execute_1', port 'ID_EX[58]' is not connected to any nets. (LINT-28)
+Warning: In design 'memory_access_1', port 'mem_in[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'memory_access_1', port 'mem_in[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'memory_access_1', port 'mem_in[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'memory_access_1', port 'mem_in[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'memory_access_1', port 'mem_in[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'memory_access_1', port 'mem_in[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'memory_access_1', port 'mem_in[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'memory_access_1', port 'mem_in[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'write_back_1', port 'write_in[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'write_back_1', port 'write_in[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'write_back_1', port 'write_in[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'write_back_1', port 'write_in[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'write_back_1', port 'write_in[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'write_back_1', port 'write_in[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'write_back_1', port 'write_in[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'write_back_1', port 'write_in[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'write_back_1', port 'clk' is not connected to any nets. (LINT-28)
+Warning: In design 'CU', input port 'IF_ID[1]' is connected directly to output port 'Rs2[1]'. (LINT-29)
+Warning: In design 'CU', input port 'IF_ID[0]' is connected directly to output port 'Rs2[0]'. (LINT-29)
+Warning: In design 'execute_1', input port 'ID_EX[57]' is connected directly to output port 'EX_MEM[23]'. (LINT-29)
+Warning: In design 'execute_1', input port 'ID_EX[56]' is connected directly to output port 'rti'. (LINT-29)
+Warning: In design 'execute_1', input port 'ID_EX[42]' is connected directly to output port 'ret_ex'. (LINT-29)
+Warning: In design 'execute_1', input port 'ID_EX[42]' is connected directly to output port 'EX_MEM[22]'. (LINT-29)
+Warning: In design 'execute_1', input port 'ID_EX[37]' is connected directly to output port 'EX_MEM[20]'. (LINT-29)
+Warning: In design 'execute_1', input port 'ID_EX[36]' is connected directly to output port 'EX_MEM[19]'. (LINT-29)
+Warning: In design 'execute_1', input port 'ID_EX[35]' is connected directly to output port 'EX_MEM[18]'. (LINT-29)
+Warning: In design 'execute_1', input port 'ID_EX[33]' is connected directly to output port 'EX_MEM[17]'. (LINT-29)
+Warning: In design 'execute_1', input port 'ID_EX[32]' is connected directly to output port 'EX_MEM[16]'. (LINT-29)
+Warning: In design 'memory_access_1', input port 'mem_in[23]' is connected directly to output port 'mem_out[23]'. (LINT-29)
+Warning: In design 'memory_access_1', input port 'mem_in[22]' is connected directly to output port 'ret_Mem'. (LINT-29)
+Warning: In design 'memory_access_1', input port 'mem_in[22]' is connected directly to output port 'mem_out[22]'. (LINT-29)
+Warning: In design 'memory_access_1', input port 'mem_in[21]' is connected directly to output port 'mem_out[21]'. (LINT-29)
+Warning: In design 'write_back_1', input port 'write_in[23]' is connected directly to output port 'pop_flags'. (LINT-29)
+Warning: In design 'write_back_1', input port 'write_in[22]' is connected directly to output port 'ret_WB'. (LINT-29)
+Warning: In design 'write_back_1', input port 'write_in[17]' is connected directly to output port 'Rd[1]'. (LINT-29)
+Warning: In design 'write_back_1', input port 'write_in[16]' is connected directly to output port 'Rd[0]'. (LINT-29)
+Warning: In design 'CU', output port 'inst_R' is connected directly to output port 'stall_en'. (LINT-31)
+Warning: In design 'CU', output port 'offset[7]' is connected directly to output port 'offset[1]'. (LINT-31)
+Warning: In design 'CU', output port 'offset[7]' is connected directly to output port 'offset[2]'. (LINT-31)
+Warning: In design 'CU', output port 'offset[7]' is connected directly to output port 'offset[3]'. (LINT-31)
+Warning: In design 'CU', output port 'offset[7]' is connected directly to output port 'offset[4]'. (LINT-31)
+Warning: In design 'CU', output port 'offset[7]' is connected directly to output port 'offset[5]'. (LINT-31)
+Warning: In design 'CU', output port 'offset[7]' is connected directly to output port 'offset[6]'. (LINT-31)
+Warning: In design 'CU', output port 'push_PC' is connected directly to output port 'flags_src'. (LINT-31)
+Warning: In design 'execute_1', output port 'EX_MEM[31]' is connected directly to output port 'EX_MEM[24]'. (LINT-31)
+Warning: In design 'execute_1', output port 'EX_MEM[31]' is connected directly to output port 'EX_MEM[25]'. (LINT-31)
+Warning: In design 'execute_1', output port 'EX_MEM[31]' is connected directly to output port 'EX_MEM[26]'. (LINT-31)
+Warning: In design 'execute_1', output port 'EX_MEM[31]' is connected directly to output port 'EX_MEM[27]'. (LINT-31)
+Warning: In design 'execute_1', output port 'EX_MEM[31]' is connected directly to output port 'EX_MEM[28]'. (LINT-31)
+Warning: In design 'execute_1', output port 'EX_MEM[31]' is connected directly to output port 'EX_MEM[29]'. (LINT-31)
+Warning: In design 'execute_1', output port 'EX_MEM[31]' is connected directly to output port 'EX_MEM[30]'. (LINT-31)
+Warning: In design 'execute_1', output port 'EX_MEM[22]' is connected directly to output port 'ret_ex'. (LINT-31)
+Warning: In design 'memory_access_1', output port 'mem_out[31]' is connected directly to output port 'mem_out[24]'. (LINT-31)
+Warning: In design 'memory_access_1', output port 'mem_out[31]' is connected directly to output port 'mem_out[25]'. (LINT-31)
+Warning: In design 'memory_access_1', output port 'mem_out[31]' is connected directly to output port 'mem_out[26]'. (LINT-31)
+Warning: In design 'memory_access_1', output port 'mem_out[31]' is connected directly to output port 'mem_out[27]'. (LINT-31)
+Warning: In design 'memory_access_1', output port 'mem_out[31]' is connected directly to output port 'mem_out[28]'. (LINT-31)
+Warning: In design 'memory_access_1', output port 'mem_out[31]' is connected directly to output port 'mem_out[29]'. (LINT-31)
+Warning: In design 'memory_access_1', output port 'mem_out[31]' is connected directly to output port 'mem_out[30]'. (LINT-31)
+Warning: In design 'memory_access_1', output port 'mem_out[22]' is connected directly to output port 'ret_Mem'. (LINT-31)
+Warning: In design 'partA_1', output port 'F[7]' is connected directly to output port 'negative'. (LINT-31)
+Warning: In design 'partB_1', output port 'F[7]' is connected directly to output port 'negative'. (LINT-31)
+Warning: In design 'partC_1', output port 'F[7]' is connected directly to output port 'negative'. (LINT-31)
+Warning: In design 'partD_1', output port 'F[7]' is connected directly to output port 'negative'. (LINT-31)
+Warning: In design 'CPU', a pin on submodule 'PC_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'e' is connected to logic 1. 
+Warning: In design 'CPU', a pin on submodule 'IF_ID_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rst' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'IF_ID_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'd[31]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'IF_ID_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'd[30]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'IF_ID_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'd[29]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'IF_ID_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'd[28]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'IF_ID_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'd[27]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'IF_ID_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'd[26]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'ID_EX_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'd[63]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'ID_EX_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'd[62]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'ID_EX_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'd[61]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'ID_EX_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'd[60]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'ID_EX_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'd[59]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'ID_EX_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'd[58]' is connected to logic 0. 
+Warning: In design 'CPU', a pin on submodule 'flags_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'e' is connected to logic 1. 
+Warning: In design 'CPU', a pin on submodule 'EX_MEM_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'e' is connected to logic 1. 
+Warning: In design 'CPU', a pin on submodule 'MEM_WB_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'e' is connected to logic 1. 
+Warning: In design 'reg_file_1', a pin on submodule 'R3_dest' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rst' is connected to logic 0. 
+Warning: In design 'CPU', the same net is connected to more than one pin on submodule 'IF_ID_reg'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'rst', 'd[31]'', 'd[30]', 'd[29]', 'd[28]', 'd[27]', 'd[26]'.
+Warning: In design 'CPU', the same net is connected to more than one pin on submodule 'ID_EX_reg'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'd[63]', 'd[62]'', 'd[61]', 'd[60]', 'd[59]', 'd[58]'.
+Warning: In design 'CPU', the same net is connected to more than one pin on submodule 'ID_EX_reg'. (LINT-33)
+   Net 'Rs2[1]' is connected to pins 'd[47]', 'd[19]''.
+Warning: In design 'CPU', the same net is connected to more than one pin on submodule 'ID_EX_reg'. (LINT-33)
+   Net 'Rs2[0]' is connected to pins 'd[46]', 'd[18]''.
+Warning: In design 'partD_1', the same net is connected to more than one pin on submodule 'u0'. (LINT-33)
+   Net 'f_2[7]' is connected to pins 'b[7]', 'b[6]'', 'b[5]', 'b[4]', 'b[3]', 'b[2]', 'b[1]', 'b[0]'.
+Warning: In design 'CU', output port 'reg_R' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'CU', output port 'offset[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'CU', output port 'offset[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'CU', output port 'offset[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'CU', output port 'offset[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'CU', output port 'offset[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'CU', output port 'offset[2]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'CU', output port 'offset[1]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'execute_1', output port 'EX_MEM[31]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'execute_1', output port 'EX_MEM[30]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'execute_1', output port 'EX_MEM[29]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'execute_1', output port 'EX_MEM[28]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'execute_1', output port 'EX_MEM[27]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'execute_1', output port 'EX_MEM[26]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'execute_1', output port 'EX_MEM[25]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'execute_1', output port 'EX_MEM[24]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'memory_access_1', output port 'mem_out[31]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'memory_access_1', output port 'mem_out[30]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'memory_access_1', output port 'mem_out[29]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'memory_access_1', output port 'mem_out[28]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'memory_access_1', output port 'mem_out[27]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'memory_access_1', output port 'mem_out[26]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'memory_access_1', output port 'mem_out[25]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'memory_access_1', output port 'mem_out[24]' is connected directly to 'logic 0'. (LINT-52)
+Warning: Net 'Eexecute_unit/CCR[0]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'Eexecute_unit/CCR[1]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'Eexecute_unit/CCR[2]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'Eexecute_unit/CCR[3]' has a single tri-state driver.  (LINT-63)
+===============initials finishes============
+===============Clock basics finishes============
+===============IO finishes============
+===============Area finishes============
+===============All finishes============
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | E-2010.12-DWBB_201012.5 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+
+Information: There are 143 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'write_back_1'
+Warning: The trip points for the library named saed90nm_typ_ht differ from those in the library named saed90nm_typ_ht_pg. (TIM-164)
+  Processing 'my_DFF_1_0'
+  Processing 'my_nDFF_n32_0'
+  Processing 'data_ram_1'
+  Processing 'memory_access_1'
+  Processing 'my_nDFF_n4'
+  Processing 'my_adder_1_0'
+  Processing 'my_nadder_n8_0'
+  Processing 'partD_1'
+  Processing 'partC_1'
+  Processing 'partB_1'
+  Processing 'partA_1'
+  Processing 'ALSU'
+  Processing 'execute_1'
+  Processing 'my_nDFF_n64'
+  Processing 'my_nDFF_n8_0'
+  Processing 'reg_file_1'
+  Processing 'CU'
+  Processing 'inst_ram_1'
+Information: The register 'dataout_reg[7]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[6]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[5]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[4]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[3]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[2]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dataout_reg[0]' is a constant and will be removed. (OPT-1206)
+  Processing 'CPU'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Total 0 isolation cells are inserted. (UPF-214)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'CPU_DW01_dec_0'
+  Processing 'memory_access_1_DW01_sub_0'
+  Processing 'CU_DW01_inc_0'
+  Processing 'CU_DW01_add_0'
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                             MIN DELAY
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT            COST   
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:14  143178.5      2.59    5322.4       0.0                                0.00
+    0:00:14  143178.5      2.59    5322.4       0.0                                0.00
+    0:00:17  156455.1      0.75      13.3       0.0                                0.00
+    0:00:17  156455.1      0.75      13.3       0.0                                0.00
+    0:00:17  156455.1      0.75      13.3       0.0                                0.00
+    0:00:17  156455.1      0.75      13.3       0.0                                0.00
+    0:00:17  156455.1      0.75      13.3       0.0                                0.00
+    0:00:18  127010.2      0.62       9.4       0.0                                0.00
+    0:00:19  127050.7      0.56       8.2       0.0                                0.00
+    0:00:19  127037.0      0.54       7.6       0.0                                0.00
+    0:00:19  127037.8      0.45       5.3       0.0                                0.00
+    0:00:20  127052.6      0.43       4.9       0.0                                0.00
+    0:00:20  127078.3      0.43       5.1       0.0                                0.00
+    0:00:20  127072.6      0.42       4.9       0.0                                0.00
+    0:00:20  127072.6      0.42       4.9       0.0                                0.00
+    0:00:20  127072.6      0.42       4.9       0.0                                0.00
+    0:00:20  127072.6      0.42       4.9       0.0                                0.00
+    0:00:20  127072.6      0.42       4.9       0.0                                0.00
+    0:00:20  127072.6      0.42       4.9       0.0                                0.00
+    0:00:20  127072.6      0.42       4.9       0.0                                0.00
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                             MIN DELAY
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT            COST   
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:20  127072.6      0.42       4.9       0.0                                0.00
+    0:00:20  127285.1      0.25       2.0       0.0 ID_EX_reg/fx_13/q_reg/D        0.00
+    0:00:20  127316.4      0.23       1.9       0.0 ID_EX_reg/fx_11/q_reg/D        0.00
+    0:00:20  127473.6      0.09       0.5       0.0 ID_EX_reg/fx_11/q_reg/D        0.00
+    0:00:21  127545.5      0.03       0.1       0.0 ID_EX_reg/fx_11/q_reg/D        0.00
+    0:00:21  127588.8      0.00       0.0       0.0                                0.00
+    0:00:21  127588.8      0.00       0.0       0.0                                0.00
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                             MIN DELAY
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT            COST   
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:21  127588.8      0.00       0.0       0.0                                0.00
+    0:00:21  127588.8      0.00       0.0       0.0                                0.00
+    0:00:21  127233.2      0.02       0.1       0.0                                0.00
+    0:00:22  127173.1      0.02       0.1       0.0                                0.00
+    0:00:22  127116.8      0.02       0.1       0.0                                0.00
+    0:00:22  127067.1      0.02       0.1       0.0                                0.00
+    0:00:22  127028.2      0.02       0.1       0.0                                0.00
+    0:00:22  126993.6      0.02       0.1       0.0                                0.00
+    0:00:22  126958.5      0.02       0.1       0.0                                0.00
+    0:00:23  126924.5      0.02       0.1       0.0                                0.00
+    0:00:23  126890.9      0.02       0.1       0.0                                0.00
+    0:00:23  126857.8      0.02       0.1       0.0                                0.00
+    0:00:23  126825.1      0.02       0.1       0.0                                0.00
+    0:00:23  126792.6      0.02       0.1       0.0                                0.00
+    0:00:23  126760.3      0.02       0.1       0.0                                0.00
+    0:00:23  126760.3      0.02       0.1       0.0                                0.00
+    0:00:23  126814.2      0.00       0.0       0.0                                0.00
+    0:00:24  126517.0      0.29       2.7       0.0                                0.00
+    0:00:24  126517.0      0.29       2.7       0.0                                0.00
+    0:00:24  126517.0      0.29       2.7       0.0                                0.00
+    0:00:24  126517.0      0.29       2.7       0.0                                0.00
+    0:00:24  126517.0      0.29       2.7       0.0                                0.00
+    0:00:24  126517.0      0.29       2.7       0.0                                0.00
+    0:00:24  126529.0      0.00       0.0       0.0                                0.00
+Loading db file '/home/abdallah/Desktop/mipsprocessor/ref/models2/saed90nm_typ_ht_pg.db'
+Loading db file '/home/abdallah/Desktop/mipsprocessor/ref/models/saed90nm_typ_ht.db'
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'CPU' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'PC_reg/fx_1/clk': 2232 load(s), 1 driver(s)
+ 
+****************************************
+Report : clock_skew
+Design : CPU
+Version: E-2010.12-SP5-3
+Date   : Wed May 13 01:23:38 2015
+****************************************
+
+                 Rise      Fall  Min Rise  Min fall        Uncertainty
+Object          Delay     Delay     Delay     Delay     Plus      Minus
+--------------------------------------------------------------------------------
+ 
+****************************************
+Report : qor
+Design : CPU
+Version: E-2010.12-SP5-3
+Date   : Wed May 13 01:23:38 2015
+****************************************
+
+
+  Timing Path Group 'CLOCK'
+  -----------------------------------
+  Levels of Logic:              37.00
+  Critical Path Length:          6.85
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:      7.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:        245
+  Hierarchical Port Count:       2249
+  Leaf Cell Count:               7882
+  Buf/Inv Cell Count:             934
+  CT Buf/Inv Cell Count:            1
+  Combinational Cell Count:      5595
+  Sequential Cell Count:         2287
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:    57349.439213
+  Noncombinational Area: 65997.510680
+  Net Area:               3182.018334
+  -----------------------------------
+  Cell Area:            123346.949893
+  Design Area:          126528.968227
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          7944
+  Nets With Violations:             0
+  -----------------------------------
+
+
+  Hostname: abdallah-Inspiron-5520
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    2.05
+  Logic Optimization:                 12.60
+  Mapping Optimization:                7.44
+  -----------------------------------------
+  Overall Compile Time:               24.11
+  Overall Compile Wall Clock Time:    25.02
+
+Writing verilog file '/home/abdallah/Desktop/mipsprocessor/results/cpu.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+Warning: Verilog writer has added 23 nets to module CPU using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/home/abdallah/Desktop/mipsprocessor/results/post_min.sdf'. (WT-3)
+Information: Timing loop detected. (OPT-150)
+	CU_comp/INT_reg/Q CU_comp/U181/IN2 CU_comp/U181/Q CU_comp/U201/IN CU_comp/U201/QN CU_comp/INT_reg/RSTB 
+Warning: Disabling timing arc between pins 'RSTB' and 'Q' on cell 'CU_comp/INT_reg'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'RSTB' and 'QN' on cell 'CU_comp/INT_reg'
+         to break a timing loop. (OPT-314)
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/home/abdallah/Desktop/mipsprocessor/results/post_max.sdf'. (WT-3)
+Information: Timing loop detected. (OPT-150)
+	CU_comp/INT_reg/Q CU_comp/U181/IN2 CU_comp/U181/Q CU_comp/U201/IN CU_comp/U201/QN CU_comp/INT_reg/RSTB 
+Warning: Disabling timing arc between pins 'RSTB' and 'Q' on cell 'CU_comp/INT_reg'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'RSTB' and 'QN' on cell 'CU_comp/INT_reg'
+         to break a timing loop. (OPT-314)
+1

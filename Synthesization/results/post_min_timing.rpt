@@ -1,0 +1,1466 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nworst 40
+        -max_paths 40
+Design : CPU
+Version: E-2010.12-SP5-3
+Date   : Wed May 13 01:23:39 2015
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht_pg
+Wire Load Model Mode: top
+
+  Startpoint: memory_access_unit/mem_acc/dataout_reg[0]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/dataout_reg[0]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/dataout_reg[0]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/dataout_reg[0]/Q (DFFNX1)
+                                                        0.4038     3.9038 r
+  memory_access_unit/mem_acc/U2564/Q (AO22X1)           0.1601     4.0639 r
+  memory_access_unit/mem_acc/dataout_reg[0]/D (DFFNX1)
+                                                        0.0307     4.0946 r
+  data arrival time                                                4.0946
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/dataout_reg[0]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0520     3.5520
+  data required time                                               3.5520
+  --------------------------------------------------------------------------
+  data required time                                               3.5520
+  data arrival time                                               -4.0946
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5426
+
+
+  Startpoint: memory_access_unit/mem_acc/dataout_reg[1]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/dataout_reg[1]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/dataout_reg[1]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/dataout_reg[1]/Q (DFFNX1)
+                                                        0.4038     3.9038 r
+  memory_access_unit/mem_acc/U2714/Q (AO22X1)           0.1601     4.0639 r
+  memory_access_unit/mem_acc/dataout_reg[1]/D (DFFNX1)
+                                                        0.0307     4.0946 r
+  data arrival time                                                4.0946
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/dataout_reg[1]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0520     3.5520
+  data required time                                               3.5520
+  --------------------------------------------------------------------------
+  data required time                                               3.5520
+  data arrival time                                               -4.0946
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5426
+
+
+  Startpoint: memory_access_unit/mem_acc/dataout_reg[2]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/dataout_reg[2]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/dataout_reg[2]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/dataout_reg[2]/Q (DFFNX1)
+                                                        0.4038     3.9038 r
+  memory_access_unit/mem_acc/U2864/Q (AO22X1)           0.1601     4.0639 r
+  memory_access_unit/mem_acc/dataout_reg[2]/D (DFFNX1)
+                                                        0.0307     4.0946 r
+  data arrival time                                                4.0946
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/dataout_reg[2]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0520     3.5520
+  data required time                                               3.5520
+  --------------------------------------------------------------------------
+  data required time                                               3.5520
+  data arrival time                                               -4.0946
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5426
+
+
+  Startpoint: memory_access_unit/mem_acc/dataout_reg[3]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/dataout_reg[3]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/dataout_reg[3]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/dataout_reg[3]/Q (DFFNX1)
+                                                        0.4038     3.9038 r
+  memory_access_unit/mem_acc/U3014/Q (AO22X1)           0.1601     4.0639 r
+  memory_access_unit/mem_acc/dataout_reg[3]/D (DFFNX1)
+                                                        0.0307     4.0946 r
+  data arrival time                                                4.0946
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/dataout_reg[3]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0520     3.5520
+  data required time                                               3.5520
+  --------------------------------------------------------------------------
+  data required time                                               3.5520
+  data arrival time                                               -4.0946
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5426
+
+
+  Startpoint: memory_access_unit/mem_acc/dataout_reg[4]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/dataout_reg[4]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/dataout_reg[4]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/dataout_reg[4]/Q (DFFNX1)
+                                                        0.4038     3.9038 r
+  memory_access_unit/mem_acc/U3164/Q (AO22X1)           0.1601     4.0639 r
+  memory_access_unit/mem_acc/dataout_reg[4]/D (DFFNX1)
+                                                        0.0307     4.0946 r
+  data arrival time                                                4.0946
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/dataout_reg[4]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0520     3.5520
+  data required time                                               3.5520
+  --------------------------------------------------------------------------
+  data required time                                               3.5520
+  data arrival time                                               -4.0946
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5426
+
+
+  Startpoint: memory_access_unit/mem_acc/dataout_reg[5]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/dataout_reg[5]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/dataout_reg[5]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/dataout_reg[5]/Q (DFFNX1)
+                                                        0.4038     3.9038 r
+  memory_access_unit/mem_acc/U3314/Q (AO22X1)           0.1601     4.0639 r
+  memory_access_unit/mem_acc/dataout_reg[5]/D (DFFNX1)
+                                                        0.0307     4.0946 r
+  data arrival time                                                4.0946
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/dataout_reg[5]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0520     3.5520
+  data required time                                               3.5520
+  --------------------------------------------------------------------------
+  data required time                                               3.5520
+  data arrival time                                               -4.0946
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5426
+
+
+  Startpoint: memory_access_unit/mem_acc/dataout_reg[6]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/dataout_reg[6]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/dataout_reg[6]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/dataout_reg[6]/Q (DFFNX1)
+                                                        0.4038     3.9038 r
+  memory_access_unit/mem_acc/U3464/Q (AO22X1)           0.1601     4.0639 r
+  memory_access_unit/mem_acc/dataout_reg[6]/D (DFFNX1)
+                                                        0.0307     4.0946 r
+  data arrival time                                                4.0946
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/dataout_reg[6]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0520     3.5520
+  data required time                                               3.5520
+  --------------------------------------------------------------------------
+  data required time                                               3.5520
+  data arrival time                                               -4.0946
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5426
+
+
+  Startpoint: memory_access_unit/mem_acc/dataout_reg[7]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/dataout_reg[7]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/dataout_reg[7]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/dataout_reg[7]/Q (DFFNX1)
+                                                        0.4038     3.9038 r
+  memory_access_unit/mem_acc/U3614/Q (AO22X1)           0.1601     4.0639 r
+  memory_access_unit/mem_acc/dataout_reg[7]/D (DFFNX1)
+                                                        0.0307     4.0946 r
+  data arrival time                                                4.0946
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/dataout_reg[7]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0520     3.5520
+  data required time                                               3.5520
+  --------------------------------------------------------------------------
+  data required time                                               3.5520
+  data arrival time                                               -4.0946
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5426
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[255][0]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[255][0]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[255][0]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[255][0]/Q (DFFNX1)
+                                                        0.4040     3.9040 r
+  memory_access_unit/mem_acc/U3/Q (AO22X1)              0.1592     4.0632 r
+  memory_access_unit/mem_acc/ram_reg[255][0]/D (DFFNX1)
+                                                        0.0307     4.0939 r
+  data arrival time                                                4.0939
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[255][0]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0507     3.5507
+  data required time                                               3.5507
+  --------------------------------------------------------------------------
+  data required time                                               3.5507
+  data arrival time                                               -4.0939
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5432
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[255][1]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[255][1]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[255][1]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[255][1]/Q (DFFNX1)
+                                                        0.4040     3.9040 r
+  memory_access_unit/mem_acc/U4/Q (AO22X1)              0.1592     4.0632 r
+  memory_access_unit/mem_acc/ram_reg[255][1]/D (DFFNX1)
+                                                        0.0307     4.0939 r
+  data arrival time                                                4.0939
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[255][1]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0507     3.5507
+  data required time                                               3.5507
+  --------------------------------------------------------------------------
+  data required time                                               3.5507
+  data arrival time                                               -4.0939
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5432
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[255][2]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[255][2]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[255][2]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[255][2]/Q (DFFNX1)
+                                                        0.4040     3.9040 r
+  memory_access_unit/mem_acc/U5/Q (AO22X1)              0.1592     4.0632 r
+  memory_access_unit/mem_acc/ram_reg[255][2]/D (DFFNX1)
+                                                        0.0307     4.0939 r
+  data arrival time                                                4.0939
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[255][2]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0507     3.5507
+  data required time                                               3.5507
+  --------------------------------------------------------------------------
+  data required time                                               3.5507
+  data arrival time                                               -4.0939
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5432
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[255][3]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[255][3]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[255][3]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[255][3]/Q (DFFNX1)
+                                                        0.4040     3.9040 r
+  memory_access_unit/mem_acc/U6/Q (AO22X1)              0.1592     4.0632 r
+  memory_access_unit/mem_acc/ram_reg[255][3]/D (DFFNX1)
+                                                        0.0307     4.0939 r
+  data arrival time                                                4.0939
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[255][3]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0507     3.5507
+  data required time                                               3.5507
+  --------------------------------------------------------------------------
+  data required time                                               3.5507
+  data arrival time                                               -4.0939
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5432
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[255][4]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[255][4]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[255][4]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[255][4]/Q (DFFNX1)
+                                                        0.4040     3.9040 r
+  memory_access_unit/mem_acc/U7/Q (AO22X1)              0.1592     4.0632 r
+  memory_access_unit/mem_acc/ram_reg[255][4]/D (DFFNX1)
+                                                        0.0307     4.0939 r
+  data arrival time                                                4.0939
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[255][4]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0507     3.5507
+  data required time                                               3.5507
+  --------------------------------------------------------------------------
+  data required time                                               3.5507
+  data arrival time                                               -4.0939
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5432
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[255][5]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[255][5]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[255][5]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[255][5]/Q (DFFNX1)
+                                                        0.4040     3.9040 r
+  memory_access_unit/mem_acc/U8/Q (AO22X1)              0.1592     4.0632 r
+  memory_access_unit/mem_acc/ram_reg[255][5]/D (DFFNX1)
+                                                        0.0307     4.0939 r
+  data arrival time                                                4.0939
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[255][5]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0507     3.5507
+  data required time                                               3.5507
+  --------------------------------------------------------------------------
+  data required time                                               3.5507
+  data arrival time                                               -4.0939
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5432
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[255][6]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[255][6]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[255][6]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[255][6]/Q (DFFNX1)
+                                                        0.4040     3.9040 r
+  memory_access_unit/mem_acc/U9/Q (AO22X1)              0.1592     4.0632 r
+  memory_access_unit/mem_acc/ram_reg[255][6]/D (DFFNX1)
+                                                        0.0307     4.0939 r
+  data arrival time                                                4.0939
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[255][6]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0507     3.5507
+  data required time                                               3.5507
+  --------------------------------------------------------------------------
+  data required time                                               3.5507
+  data arrival time                                               -4.0939
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5432
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[255][7]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[255][7]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[255][7]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[255][7]/Q (DFFNX1)
+                                                        0.4040     3.9040 r
+  memory_access_unit/mem_acc/U10/Q (AO22X1)             0.1592     4.0632 r
+  memory_access_unit/mem_acc/ram_reg[255][7]/D (DFFNX1)
+                                                        0.0307     4.0939 r
+  data arrival time                                                4.0939
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[255][7]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0507     3.5507
+  data required time                                               3.5507
+  --------------------------------------------------------------------------
+  data required time                                               3.5507
+  data arrival time                                               -4.0939
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5432
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[2][0]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[2][0]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[2][0]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[2][0]/Q (DFFNX1)   0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2533/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[2][0]/D (DFFNX1)   0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[2][0]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[2][1]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[2][1]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[2][1]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[2][1]/Q (DFFNX1)   0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2534/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[2][1]/D (DFFNX1)   0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[2][1]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[2][2]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[2][2]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[2][2]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[2][2]/Q (DFFNX1)   0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2535/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[2][2]/D (DFFNX1)   0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[2][2]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[2][3]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[2][3]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[2][3]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[2][3]/Q (DFFNX1)   0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2536/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[2][3]/D (DFFNX1)   0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[2][3]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[2][4]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[2][4]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[2][4]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[2][4]/Q (DFFNX1)   0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2537/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[2][4]/D (DFFNX1)   0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[2][4]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[2][5]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[2][5]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[2][5]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[2][5]/Q (DFFNX1)   0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2538/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[2][5]/D (DFFNX1)   0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[2][5]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[2][6]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[2][6]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[2][6]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[2][6]/Q (DFFNX1)   0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2539/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[2][6]/D (DFFNX1)   0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[2][6]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[2][7]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[2][7]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[2][7]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[2][7]/Q (DFFNX1)   0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2540/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[2][7]/D (DFFNX1)   0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[2][7]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[4][0]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[4][0]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[4][0]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[4][0]/Q (DFFNX1)   0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2513/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[4][0]/D (DFFNX1)   0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[4][0]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[4][1]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[4][1]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[4][1]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[4][1]/Q (DFFNX1)   0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2514/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[4][1]/D (DFFNX1)   0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[4][1]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[4][2]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[4][2]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[4][2]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[4][2]/Q (DFFNX1)   0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2515/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[4][2]/D (DFFNX1)   0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[4][2]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[4][3]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[4][3]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[4][3]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[4][3]/Q (DFFNX1)   0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2516/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[4][3]/D (DFFNX1)   0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[4][3]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[4][4]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[4][4]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[4][4]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[4][4]/Q (DFFNX1)   0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2517/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[4][4]/D (DFFNX1)   0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[4][4]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[4][5]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[4][5]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[4][5]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[4][5]/Q (DFFNX1)   0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2518/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[4][5]/D (DFFNX1)   0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[4][5]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[4][6]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[4][6]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[4][6]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[4][6]/Q (DFFNX1)   0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2519/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[4][6]/D (DFFNX1)   0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[4][6]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[4][7]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[4][7]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[4][7]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[4][7]/Q (DFFNX1)   0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2520/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[4][7]/D (DFFNX1)   0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[4][7]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[10][0]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[10][0]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[10][0]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[10][0]/Q (DFFNX1)
+                                                        0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2453/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[10][0]/D (DFFNX1)
+                                                        0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[10][0]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[10][1]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[10][1]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[10][1]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[10][1]/Q (DFFNX1)
+                                                        0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2454/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[10][1]/D (DFFNX1)
+                                                        0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[10][1]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[10][2]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[10][2]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[10][2]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[10][2]/Q (DFFNX1)
+                                                        0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2455/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[10][2]/D (DFFNX1)
+                                                        0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[10][2]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[10][3]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[10][3]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[10][3]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[10][3]/Q (DFFNX1)
+                                                        0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2456/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[10][3]/D (DFFNX1)
+                                                        0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[10][3]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[10][4]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[10][4]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[10][4]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[10][4]/Q (DFFNX1)
+                                                        0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2457/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[10][4]/D (DFFNX1)
+                                                        0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[10][4]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[10][5]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[10][5]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[10][5]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[10][5]/Q (DFFNX1)
+                                                        0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2458/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[10][5]/D (DFFNX1)
+                                                        0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[10][5]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[10][6]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[10][6]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[10][6]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[10][6]/Q (DFFNX1)
+                                                        0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2459/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[10][6]/D (DFFNX1)
+                                                        0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[10][6]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+  Startpoint: memory_access_unit/mem_acc/ram_reg[10][7]
+              (falling edge-triggered flip-flop clocked by clock)
+  Endpoint: memory_access_unit/mem_acc/ram_reg[10][7]
+            (falling edge-triggered flip-flop clocked by clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CPU                ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[10][7]/CLK (DFFNX1)
+                                                        0.0000 #   3.5000 f
+  memory_access_unit/mem_acc/ram_reg[10][7]/Q (DFFNX1)
+                                                        0.4035     3.9035 r
+  memory_access_unit/mem_acc/U2460/Q (AO22X1)           0.1591     4.0626 r
+  memory_access_unit/mem_acc/ram_reg[10][7]/D (DFFNX1)
+                                                        0.0307     4.0933 r
+  data arrival time                                                4.0933
+
+  clock clock (fall edge)                               3.5000     3.5000
+  clock network delay (ideal)                           0.0000     3.5000
+  memory_access_unit/mem_acc/ram_reg[10][7]/CLK (DFFNX1)
+                                                        0.0000     3.5000 f
+  library hold time                                     0.0489     3.5489
+  data required time                                               3.5489
+  --------------------------------------------------------------------------
+  data required time                                               3.5489
+  data arrival time                                               -4.0933
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.5444
+
+
+1

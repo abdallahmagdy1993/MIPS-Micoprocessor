@@ -1,0 +1,16 @@
+Information: Updating graph... (UID-83)
+Warning: Design 'CPU' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Information: Updating design information... (UID-85)
+Warning: Design 'CPU' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : CPU
+Version: E-2010.12-SP5-3
+Date   : Wed May 13 01:23:39 2015
+****************************************
+
+This design has no violated constraints.
+
+1
