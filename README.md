@@ -1,6 +1,6 @@
 # MIPS-Micoprocessor
 * A simple pipelined processor, Harvard architecture.
-* It is implemented in VHDL, simulated using Modelsim and synthesized using Synopsys design compiler and Quartus.
+* It is implemented in VHDL, simulated using Modelsim and synthesized using Synopsys DC and Quartus.
 
 ## Specifications
 * The processor has a RISC-like instruction set architecture.
